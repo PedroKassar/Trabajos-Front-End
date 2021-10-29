@@ -1,0 +1,66 @@
+*{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+#banner{
+    text-align: center;
+    padding: 10px;
+}
+
+#title{
+    text-align: center;
+}
+
+#title h1{
+    padding: 10px;
+}
+
+#title p{
+    width: 50%;
+    margin: auto;
+
+}
+
+#ingredientes{
+    text-align: center;
+    padding: 10px;
+}
+
+#ingredientes h3{
+    padding: 3px;
+}
+
+#ingredientes li{
+    padding: 1px;
+}
+
+#instrucciones{
+    text-align: center;
+    list-style-type: circle;
+}
+
+#instrucciones li{
+    list-style-type: circle;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    text-align: left;
+}
+
+footer{
+    border-top: 1px solid black;    
+    margin-top: 10px;
+}
+
+footer div{
+    text-align: center;
+    padding: 5px;
+}
+
