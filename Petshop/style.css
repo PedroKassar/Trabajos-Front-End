@@ -1,0 +1,21 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header img{
+    background-color: #F0A83E;
+}
+
+header ul{
+    list-style-image: url("/Petshop/img/huellita.png");
+    background-color: #F0A83E;
+}
+
+.mailLogo{
+    background-color: #F0A83E;
+}
+
+footer img{
+    background-color: #3C2313;
+}
