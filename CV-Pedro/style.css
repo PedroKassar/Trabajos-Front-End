@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+}
+
+header img{
+    width: 100px;  
+    padding-top: 10px;
+}
+
+h1{
+    padding: 10px;
+    background-color: gray;
+    border: 2px solid black;
+    
+}
+
+h2{
+    padding: 20px;
+}
+
+span{
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 2px;
+}
+
+#allSections{
+    background-image: url(img/matrix.gif);
+    height: 750px;
+}
+
+.datos{
+    margin-right: 50%;
+    background-color: rgba(192, 190, 190, 0.9);
+    height: 150px;
+}
+
+.formacion{
+    margin-left: 50%;
+    background-color: rgba(192, 190, 190, 0.9);
+    height: 150px;
+}
+
+.laboral{
+    margin-right: 50%;
+    background-color: rgba(192, 190, 190, 0.9);
+    height: 150px;
+}
+
+.datos ul{
+    margin-left: 20px;
+}
+
+.formacion ul{
+    margin-left: 20px;
+}
+
+.laboral ul{
+    margin-left: 20px;
+}
+
+footer img{
+    width: 50px;
+    padding-top: 5px;
+}
+
+footer{
+    text-align: center;
+}
