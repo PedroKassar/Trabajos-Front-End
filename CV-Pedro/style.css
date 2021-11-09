@@ -8,7 +8,7 @@ header{
 }
 
 header img{
-    width: 100px;  
+    width: 200px;  
     padding-top: 10px;
 }
 
@@ -40,10 +40,18 @@ span{
     height: 150px;
 }
 
+.datos ul{
+    margin-left: 20px;
+}
+
 .formacion{
     margin-left: 50%;
     background-color: rgba(192, 190, 190, 0.9);
     height: 150px;
+}
+
+.formacion ul{
+    margin-left: 20px;
 }
 
 .laboral{
@@ -52,16 +60,37 @@ span{
     height: 150px;
 }
 
-.datos ul{
-    margin-left: 20px;
-}
-
-.formacion ul{
-    margin-left: 20px;
-}
-
 .laboral ul{
     margin-left: 20px;
+}
+
+.acerca{
+    margin-left: 50%;
+    background-color: rgba(192, 190, 190, 0.9);
+    height: 150px;
+}
+
+.acerca ul{
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+.acerca a{
+    color: green;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.gracias{
+    margin-right: 50%;
+    background-color: rgba(192, 190, 190, 0.9);
+    height: 150px;
+}
+
+.gracias h2{
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
 }
 
 footer img{
