@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(img/endless-constellation.svg);
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+#trabajos{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#trabajos a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+#trabajos li{
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+.lemon{
+    width: 200px;
+    margin: auto;
+    background-color: rgb(48, 46, 46);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.pet{
+    width: 200px;
+    margin: auto;
+    background-color: rgb(48, 46, 46);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.cv{
+    width: 200px;
+    margin: auto;
+    background-color: rgb(48, 46, 46);
+    border-radius: 15px;
+    padding: 15px;
+}
