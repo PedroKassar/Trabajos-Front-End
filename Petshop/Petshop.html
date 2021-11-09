@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +8,16 @@
     <link rel="stylesheet" href="style.css">
     <title>Petshop</title>
 </head>
+
 <body>
+
     <header>
-        <div>
+        <div class="parte1Header">
             <div>Grandes ofertas en comederos</div>
             <p>Español</p>
             <p>ARG$</p>
         </div>
-        <div>
+        <div class="parte2Header">
             <div>
                 <img src="img/logo.png" alt="logo Petshop">
             </div>
@@ -26,20 +29,20 @@
             </ul>
         </div>
     </header>
-    <section>
-        <img src="img/banner.jpg" alt="banner Petshop">
+
+    <section id="banner">
         <h2>¡Es un placer tenerte aquí!</h2>
         <p>¡Comederos en descuento!</p>
         <button>COMEDEROS</button>
     </section>
-    <section>
+
+    <section id="tituloProductos">
         <img src="img/huella grande.png" alt="">
         <h1>Productos Destacados</h1>
-        <ul>
-            <li>Comederos</li>
-            <li>Accesorios</li>
-            <li>Comida</li>
-        </ul>
+        <p>Comedores - Accesorios - Comida</p>
+    </section>
+
+    <section id="productos">
         <div>
             <img src="img/churrasquito.png" alt="Juguete churrasquito">
             <p>Juguete churrasquito</p>
@@ -56,22 +59,25 @@
             <strong>$650</strong>
         </div>
     </section>
-    <section>
+
+    <section id="contacto">
         <h2>Contáctanos</h2>
         <form action="">
             <div><input type="Name" placeholder="Nombre y Apellido"></div>
             <div><input type="E-mail" placeholder="Ingresá tu correo electrónico"></div>
-            <div><input type="Teléfono" placeholder="Teléfono"></div>        
+            <div><input type="Teléfono" placeholder="Teléfono"></div>
             <button>Resetear</button>
             <button>Enviar</button>
         </form>
     </section>
-    <section>
+
+    <section id="contactoMail">
         <img class="mailLogo" src="img/mail-logo.png" alt="logo de mail">
         <p>Suscríbete para más novedades</p>
         <input type="E-mail" placeholder="Ingresá tu correo electrónico">
         <button>Suscribirme</button>
     </section>
+
     <footer>
         <div>
             <img src="img/Icono-Localidad.png" alt="icono localidad">
@@ -89,7 +95,8 @@
             <div>Dirección de correo</div>
         </div>
         <img src="img/Logo-footer.png" alt="logo Petshop">
-        <div>Todos los derechos reservados Front End</div>
+        <div class="derechos">Todos los derechos reservados Front End</div>
     </footer>
 </body>
+
 </html>

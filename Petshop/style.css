@@ -1,21 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+*{
+    font-family: Roboto;
+    padding: 0;
+    margin: 0;
+}
+
 a{
     text-decoration: none;
     color: black;
 }
 
-header img{
+.parte1Header{
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.parte2Header{
     background-color: #F0A83E;
+    margin-bottom: 10px;
 }
 
 header ul{
     list-style-image: url("/Petshop/img/huellita.png");
-    background-color: #F0A83E;
 }
 
-.mailLogo{
+#banner{
+    text-align: center;
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 409px;
+    margin-bottom: 10px;
+}
+
+#banner h2{
+    width: 300px;
+    margin: auto;
+    background-color: white;
+}
+
+#banner p{
+    color: #3C2313;
+}
+
+#banner button{
     background-color: #F0A83E;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: 0;
+}
+
+#tituloProductos{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#tituloProductos h1{
+    font-size: 40px;
+}
+
+#tituloProductos p{
+    color: #666666;
+}
+
+#productos{
+    margin-bottom: 10px;
+}
+
+#productos p{
+    color: #3C2313;
+}
+
+#productos strong{
+    color: #F0A83E;
+}
+
+#contacto{
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#contacto h2{
+    color: #3C2313;
+}
+
+#contactoMail{
+    background-color: #F0A83E;
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: #3C2313;
 }
 
 footer img{
-    background-color: #3C2313;
+    padding: 5px;
+}
+
+footer h3{
+    color: white;
+    padding: 5px;
+}
+
+footer div{
+    color: white;
+    padding: 5px;
+}
+
+.derechos{
+    margin-top: 10px;
+    background-color: #F0A83E;
+    text-align: center;
 }
