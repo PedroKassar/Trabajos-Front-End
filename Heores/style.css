@@ -80,6 +80,12 @@ main{
     top: 130px;
 }
 
+.cora{
+    position: relative;
+    right: 100px;
+    bottom: 70px;
+}
+
 footer{
     background-color: #00669F;
     color: white;
