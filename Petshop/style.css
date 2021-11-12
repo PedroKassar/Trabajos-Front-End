@@ -58,10 +58,13 @@ header li{
     margin-bottom: 10px;
 }
 
+.letrasBanner{
+    position: absolute;
+    top: 260px;
+    right: 170px;
+}
+
 #banner h2{
-    position: relative;
-    top: 180px;
-    left: 500px;
     width: 300px;
     margin: auto;
     background-color: white;
@@ -71,9 +74,7 @@ header li{
 
 #banner p{
     color: #3C2313;
-    position: relative;
-    top: 190px;
-    left: 500px;
+    padding: 15px 0;
 }
 
 #banner button{
@@ -81,11 +82,12 @@ header li{
     color: white;
     font-family: 'Times New Roman', Times, serif;
     border: 0;
-    position: relative;
-    top: 200px;
-    left: 500px;
     padding: 15px;
     border-radius: 8px;
+}
+
+#banner div{
+    margin-left: 500px;
 }
 
 #tituloProductos{
@@ -133,6 +135,7 @@ form input{
     padding: 15px;
     border-radius: 10px;
     background-color: #3C2313;
+    border: 0;
 }
 
 form ::placeholder{
@@ -183,10 +186,21 @@ form button{
 .suscribe input{
     width: 300px;
     padding: 10px;
+    border: 0;
+    border-radius: 10px;
+}
 
+.suscribe button{
+    margin-left: 10px;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #3C2313;
+    color: white;
 }
 
 footer{
+
     background-color: #3C2313;
 }
 
@@ -205,7 +219,7 @@ footer div{
 }
 
 .derechos{
-    margin-top: 10px;
-    background-color: #F0A83E;
+    background-color: black;
     text-align: center;
 }
+
