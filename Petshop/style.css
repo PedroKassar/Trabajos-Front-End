@@ -200,26 +200,43 @@ form button{
 }
 
 footer{
-
+    display: flex;
+    justify-content: space-between;
     background-color: #3C2313;
 }
 
-footer img{
-    padding: 5px;
+.logoFoot{
+    display: flex;
+    align-items: center;
+    padding: 20px;
 }
 
-footer h3{
-    color: white;
-    padding: 5px;
+#info{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 }
 
-footer div{
+.cositosInfo{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.detallesInfo{
+    padding: 0 20px;
     color: white;
-    padding: 5px;
+}
+
+.detallesInfo p{
+    color: gray;
+    font-size: 14px;
 }
 
 .derechos{
     background-color: black;
+    color: white;
+    padding: 5px;
     text-align: center;
 }
 
