@@ -14,8 +14,10 @@
     <header>
         <div class="parte1Header">
             <div>Grandes ofertas en comederos</div>
-            <p>Español</p>
-            <p>ARG$</p>
+            <div class="selecIdioma">
+                <p>Español</p>
+                <p>ARG$</p>
+            </div>
         </div>
         <div class="parte2Header">
             <div>
@@ -62,20 +64,24 @@
 
     <section id="contacto">
         <h2>Contáctanos</h2>
-        <form action="">
-            <div><input type="Name" placeholder="Nombre y Apellido"></div>
-            <div><input type="E-mail" placeholder="Ingresá tu correo electrónico"></div>
-            <div><input type="Teléfono" placeholder="Teléfono"></div>
-            <button>Resetear</button>
-            <button>Enviar</button>
+        <form>
+            <div><input type="Name" placeholder="Nombre y Apellido" required></div>
+            <div><input type="E-mail" placeholder="Ingresá tu correo electrónico" required></div>
+            <div><input type="Teléfono" placeholder="Teléfono" required></div>
+            <button class="reset" type="reset">Resetear</button>
+            <button class="send" type="submit">Enviar</button>
         </form>
     </section>
 
     <section id="contactoMail">
-        <img class="mailLogo" src="img/mail-logo.png" alt="logo de mail">
-        <p>Suscríbete para más novedades</p>
-        <input type="E-mail" placeholder="Ingresá tu correo electrónico">
-        <button>Suscribirme</button>
+        <div class="mailLogo">
+            <img src="img/mail-logo.png" alt="logo de mail">
+            <p>Suscríbete para más novedades</p>
+        </div>
+        <div class="suscribe">
+            <input type="E-mail" placeholder="Ingresá tu correo electrónico">
+            <button>Suscribirme</button>
+        </div>
     </section>
 
     <footer>

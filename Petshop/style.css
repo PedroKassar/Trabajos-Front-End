@@ -12,18 +12,41 @@ a{
 }
 
 .parte1Header{
+    display: flex;
+    justify-content: space-around;
     background-color: black;
     color: white;
-    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.parte1Header .selecIdioma{
+    display: flex;
+}
+
+.selecIdioma p{
+    padding: 0 20px;
 }
 
 .parte2Header{
+    display: flex;
+    justify-content: space-between;
     background-color: #F0A83E;
-    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.parte2Header img{
+    display: flex;
+    align-items: center;
 }
 
 header ul{
     list-style-image: url("/Petshop/img/huellita.png");
+    display: flex;
+    align-items: center;
+}
+
+header li{
+    margin: 0 30px;
 }
 
 #banner{
@@ -36,13 +59,21 @@ header ul{
 }
 
 #banner h2{
+    position: relative;
+    top: 180px;
+    left: 500px;
     width: 300px;
     margin: auto;
     background-color: white;
+    border-radius: 10px;
+    padding: 15px;
 }
 
 #banner p{
     color: #3C2313;
+    position: relative;
+    top: 190px;
+    left: 500px;
 }
 
 #banner button{
@@ -50,11 +81,16 @@ header ul{
     color: white;
     font-family: 'Times New Roman', Times, serif;
     border: 0;
+    position: relative;
+    top: 200px;
+    left: 500px;
+    padding: 15px;
+    border-radius: 8px;
 }
 
 #tituloProductos{
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 #tituloProductos h1{
@@ -63,10 +99,13 @@ header ul{
 
 #tituloProductos p{
     color: #666666;
+    margin-top: 10px;
 }
 
 #productos{
-    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
 }
 
 #productos p{
@@ -85,11 +124,66 @@ header ul{
 
 #contacto h2{
     color: #3C2313;
+    margin-bottom: 10px;
+}
+
+form input{
+    width: 300px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #3C2313;
+}
+
+form ::placeholder{
+    color: white;
+}
+
+form button{
+    margin: 10px;
+}
+
+.reset{
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: 0;
+    background-color: #8A8787;
+    color: white;
+}
+
+.send{
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: 0;
+    background-color: #F0A83E;
+    color: white;
 }
 
 #contactoMail{
+    display: flex;
     background-color: #F0A83E;
-    margin-bottom: 10px;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.mailLogo{
+    display: flex;
+    align-items: center;
+}
+
+.mailLogo p{
+    color: white;
+    padding: 0 5px;
+}
+
+.suscribe{
+    display: flex;
+}
+
+.suscribe input{
+    width: 300px;
+    padding: 10px;
+
 }
 
 footer{
